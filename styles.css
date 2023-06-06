@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 10px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Styles */
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    flex: 0 0 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Footer Styles */
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  ul {
+    padding: 0%;
+  }
